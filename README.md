@@ -1,2 +1,2 @@
 # ecommerce-company-challenge
-AI Knowledge Assistant based on Retrieval-Augmented Generation (RAG) for answering questions from internal e-commerce documentation.
+AI-powered Enterprise Knowledge Assistant using Retrieval-Augmented Generation (RAG) to answer questions over internal e-commerce documentation.
