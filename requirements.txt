@@ -9,3 +9,9 @@ python-dotenv
 streamlit
 tiktoken
 sentence-transformers
+
+faiss-cpu
+langchain-openai
+python-dotenv
+
+langchain-classic
