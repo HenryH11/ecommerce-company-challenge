@@ -1,16 +1,18 @@
 from src.loaders.pdf_loader import load_documents
+from src.text_splitter import split_documents
 
-# Invocamos la función apuntando a tu carpeta 'docs'
+# Cargamos desde tu carpeta real de PDFs 'docs'
 documents = load_documents("docs")
 
-print("===================================")
-print(f"Documents loaded: {len(documents)}")
-print("===================================")
+# Ejecutamos tu función de fragmentación
+chunks = split_documents(documents)
+
+print(f"PDF pages: {len(documents)}")
+print(f"Chunks created: {len(chunks)}")
 print()
 
-if len(documents) > 0:
-    print("--- Contenido de la primera página detectada ---")
-    # Accedemos al contenido textual de la primera página cargada
-    print(documents[0].page_content)
+if len(chunks) > 0:
+    print("--- Contenido del primer chunk ---")
+    print(chunks[0].metadata)
 else:
-    print("❌ No se detectaron documentos PDF en la carpeta 'docs/'.")
+    print("❌ No se pudieron generar chunks.")
