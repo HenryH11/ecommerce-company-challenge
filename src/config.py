@@ -3,5 +3,5 @@ import os
 
 load_dotenv()
 
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-MODEL = os.getenv("OPENAI_MODEL")
+GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
+MODEL = "gemini-2.5-flash"

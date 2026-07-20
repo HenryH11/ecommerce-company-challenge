@@ -220,3 +220,5 @@ __marimo__/
 # Llaves y credenciales
 llave.key
 .env
+
+__pycache__/
