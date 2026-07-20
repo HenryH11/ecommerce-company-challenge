@@ -164,9 +164,9 @@ The production environment is fully deployed and accessible globally. You can te
 
 *Note: The application is hosted on an autonomous Oracle Cloud Infrastructure (OCI) server running 24/7 in second background mode via `nohup` protocols.*
 
-***⚠️ Operational SLA Notice:** This deployment is currently hosted on an **OCI Free Tier account**. Please be aware that cloud resources under this standard free trial tier are subject to automatic reclamation, instance pausing, or termination by without prior notice. If the URL becomes unreachable in the future, it is due to these platform-specific hosting limitations.*
+***⚠️ Operational SLA Notice:** This deployment is currently hosted on an **OCI Free Tier account**. Please be aware that cloud resources under this standard free trial tier are subject to automatic reclamation, instance pausing, or termination without prior notice. If the URL becomes unreachable in the future, it is due to these platform-specific hosting limitations.*
 
-#### 1️⃣0️⃣ a OCI Compute Instance Provisioning & Architecture Validation
+#### 1️⃣0️⃣ OCI Compute Instance Provisioning & Architecture Validation
 *This panel serves as the definitive infrastructure proof of concept (PoC). It validates that the production environment is actively `Running` on an enterprise-grade `VM.Standard.A1.Flex` shape (ARM Ampere architecture) with 1 OCPU and 6 GB of RAM. Displaying these metrics demonstrates successful mitigation of cloud capacity constraints while proving the application's availability via a verified Public IP address.*
 ![OCI Instance Details](images/10_oci_instance_details.png)
 
